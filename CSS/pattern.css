@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Sintony:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+/* CLASSES -----------------------------------------------------------------------------------------------------------------------*/
+
+.carousel-item h4{
+    font-size: 2.5em;    
+    color: whitesmoke;
+}
+
+.limpeza{
+    clear: both;  
+    overflow: auto;   
+}
+
+
+.container-head{
+    width: 100%; 
+    height: 15%;
+    padding: 50px;    
+    text-align: center;
+}
+
+.container-pattern {    
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;     
+    text-align: justify;     
+}
+
+.fluid{
+    padding: 3% 10%;
+}
+
+.container-banner{
+    width: 100%; 
+    text-align: center;
+    padding: 5%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%;  
+}
+
+.space{
+    padding-left: 15px;
+}
+
+.navbar-color{
+    background-color:  white;
+    color: black;    
+}
+
+.nav-link{
+    color: black;
+}
+
+.navbar-brand{
+    color: black; 
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: #FFDA2D;    
+}
+
+
+.navbar-toggler{
+    background-image: url('../IMG/ICON/menu.png');
+    width: 32px;
+    height: 32px;      
+}
+
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.w-100{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.float-left{
+    text-align: left;  
+    padding: 5px; 
+}
+
+.float-right{
+    text-align: right;  
+    padding: 5px;   
+}
+
+.show {
+    display: block;
+}
+
+.txt-destaque{
+	text-align: justify; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;	    
+    color: black;
+}
+
+
+.banner_bg{
+    background-color: #FFDA2D;
+    color: black;
+}
+
+.small-icon{
+    margin: 15px;
+    width: 90px;
+}
+
+.w80{
+    margin: 0 auto;
+    width: 80%;    
+}
+
+.hoteis{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #DBDBDB;
+    padding: 5px 5px 0px 0px;
+    overflow: auto;
+}
+
+.describe{
+    display: inline;
+}
+
+
+/* ELEMENTO HTML -----------------------------------------------------------------------------------------------------------------------*/
+body{
+    line-height: 1.9em;   
+    font-family: 'Sintony', sans-serif;
+}
+
+
+footer{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #262525;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5{    
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p, a, .navbar-brand{
+    font-family: 'Poppins', sans-serif;    
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 0 20%;     
+}
+
+
+
+/* IMAGEM -----------------------------------------------------------------------------------------------------------------------*/
+
+.img-center{   
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.Logo{
+    width: 130px;
+}
+
+.logo-center{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+
+
+.img-fluid{
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+section .img-fluid{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.img-icon{
+    width: 150px;    
+}
+
+.map-cidade{
+    max-width: 100%;  
+    margin: 5px;
+}
+
+.img-hotel{
+    float: left;
+    margin-right: 1.8em;           
+}
+
+
+/*ELEMENTO ÚNICO*/
+#form-busca-hotel{
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;    
+}
+
+#bg-map{
+    background-image: url('../IMG/mapa2.jpeg');
+    background-repeat: no-repeat;
+    
+}
+
+/* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 900px) {
+    .txt-destaque{             
+        padding-left: 15%;
+        padding-right: 15%;  
+    } 
+
+    section{     
+        padding: 0 10%; 
+    } 
+  
+    .img-center{
+        width: 30%;
+        height: 30%;        
+    }     
+
+    .img-hotel{
+        float: none;
+        position: relative;
+        margin-bottom: 1.8em;        
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 680px) {
+    .txt-destaque{             
+        padding-left: 5%;
+        padding-right: 5%;  
+    }   
+
+    section{     
+        padding: 0 5%; 
+    }     
+
+    .img-center{
+        width: 35%;
+        height: 35%;        
+    } 
+
+    .logo-center{
+        width: 80%;        
+    }
+
+    .banner{        
+        padding: 10%;
+    }
+       
+    .float-left{
+        text-align: justify;  
+    }    
+    .float-right{
+        text-align: justify;  
+    }
+}
+

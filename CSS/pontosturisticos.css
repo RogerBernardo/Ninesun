@@ -1,0 +1,71 @@
+.box-cidade {
+    width: 500px;
+    height: 500px;
+    padding: 25px;
+    font-size: 3.5em;
+    text-align: center;
+    line-height: 400px;
+    color: black;
+}
+
+.row a{
+    text-decoration: none;
+    margin: 10px;    
+}        
+
+.row a:hover  {
+    text-decoration: none;
+}
+
+
+#cdd-01 {
+    background-color: #FFDA2D; 
+}
+
+#cdd-02 {
+    background-color: #FFDA2D; 
+}
+
+#cdd-03 {
+    background-color: #FFDA2D; 
+}
+
+#cdd-04 {
+    background-color: #FFDA2D;
+}
+
+#cdd-05 {
+    background-color: #FFDA2D; 
+}
+
+#cdd-06 {
+    background-color: #FFDA2D; 
+}
+
+#cdd-07 {
+    background-color: #FFDA2D; 
+}
+
+#cdd-08 {
+    background-color: #FFDA2D;
+}
+
+#cdd-09 {
+    background-color: #FFDA2D; 
+}
+
+@media screen and (max-width: 600px){
+    .box-cidade{
+        width: 100%;
+        margin:0;
+        padding: 0;
+    }
+    .row{
+        padding: 0;
+        margin: 0;
+    }
+    .row a{        
+        margin: 5px;            
+    }        
+    
+}

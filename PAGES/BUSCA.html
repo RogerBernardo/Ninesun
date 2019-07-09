@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--FOLHA DE ESTILO-->
+    <link rel="stylesheet" href="../CSS/hospedagem.css" />
+    <link rel="stylesheet" href="../CSS/pattern.css" />
+    <title>NINESUN</title>
+
+
+
+
+</head>
+
+<body >
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-color">
+            <a class="navbar-brand" href="../PAGES/INICIAL.html">
+                <img src="../IMG/LOGO/brand.png" class="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../PAGES/INICIAL.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../PAGES/BUSCA.html">Hospedagem</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            Cidades
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="santos.html">Santos</a>
+                            <a class="dropdown-item" href="saovicente.html">São Vicente</a>
+                            <a class="dropdown-item" href="praiagrande.html">Praia Grande</a>
+                            <a class="dropdown-item" href="cubatao.html">Cubatão</a>
+                            <a class="dropdown-item" href="itanhaem.html">Itanhaém</a>
+                            <a class="dropdown-item" href="peruibe.html">Peruíbe</a>
+                            <a class="dropdown-item" href="guaruja.html">Guarujá</a>
+                            <a class="dropdown-item" href="monguagua.html">Monguaguá</a>
+                            <a class="dropdown-item" href="bertioga.html">Bertioga</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../PAGES/PONTOSTURISTICOS.html">Pontos Turísticos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../PAGES/PRAIAS.html">Praias</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-pattern" id="bg-map">
+
+        <section style="height:700px; width: 90%; margin: 0 auto;" class="">
+            <div class="container-banner">                
+                <h3> Pesquise seu hotel ideal </h3>
+            </div>
+            <br>
+            <form>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nome da Cidade" id="cidade" />
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" id="pesquisar" type="button" onclick="procurar()">Pesquisar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <h6 class="center">Criado por: Roger Bernardo de Melo Lima</h6>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        function procurar() {
+            var c = document.getElementById("cidade").value;
+            var cidade = c.toUpperCase();
+
+            switch (cidade) {
+                case "SAO VICENTE":
+                    window.location.assign("../PAGES/H-saovicente.html");
+                    break;
+                case "SÃO VICENTE":
+                    window.location.assign("../PAGES/H-saovicente.html");
+                    break;
+                case "CUBATAO":
+                    window.location.assign("../PAGES/H-cubatao.html");
+                    break;
+                case "CUBATÃO":
+                    window.location.assign("../PAGES/H-cubatao.html");
+                    break;
+                case "SANTOS":
+                    window.location.assign("../PAGES/H-santos.html");
+                    break;
+                case "PRAIA GRANDE":
+                    window.location.assign("../PAGES/H-praiagrande.html");
+                    break;
+                case "MONGUAGUA":
+                    window.location.assign("../PAGES/H-monguagua.html");
+                    break;
+                case "MONGUAGUÁ":
+                    window.location.assign("../PAGES/H-monguagua.html");
+                    break;
+                case "ITANHAEM":
+                    window.location.assign("../PAGES/H-itanhaem.html");
+                    break;
+                case "ITANHAÉM":
+                    window.location.assign("../PAGES/H-itanhaem.html");
+                    break;
+                case "PERUIBE":
+                    window.location.assign("../PAGES/H-peruibe.html");
+                    break;
+                case "PERUÍBE":
+                    window.location.assign("../PAGES/H-peruibe.html");
+                    break;
+                case "GUARUJA":
+                    window.location.assign("../PAGES/H-guaruja.html");
+                    break;
+                case "GUARUJÁ":
+                    window.location.assign("../PAGES/H-guaruja.html");
+                    break;
+                case "BERTIOGA":
+                    window.location.assign("../PAGES/H-bertioga.html");
+                    break;
+                default:
+                    alert("Não consegui identificar nenhuma cidade com o nome: " + cidade);
+                    break;
+
+            }
+        }
+    </script>
+</body>
+
+</html>
