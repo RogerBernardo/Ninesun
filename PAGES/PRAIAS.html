@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -16,9 +15,6 @@
 
     <title>NINESUN</title>
 
-    <script>
-
-    </script>
 </head>
 
 <body>
@@ -65,29 +61,28 @@
             </div>
         </nav>
     </header>
-    <div class="container-banner banner_bg">
-        <h2>Conheça nossas praias</h1>
-            </br>
-            <select id="filtros" class="custom-select">
-                <option value="all" selected>Mostrar Tudo</option>
-                <option value="saovicente">São Vicente</option>
-                <option value="santos">Santos</option>
-                <option value="praiagrande">Praia Grande</option>
-                <option value="peruibe">Peruíbe</option>
-                <option value="guaruja">Guarujá</option>
-                <option value="itanhaem">Itanhaém</option>
-                <option value="monguagua">Monguaguá</option>
-                <option value="bertioga">Bertioga</option>
-            </select>
 
-            <button onclick="filtrar(document.getElementById('filtros').value)" class="btn btn-info">Filtrar</button>
-
+    <div class="container-head">
+        <h2>Praias</h2>
+        <p>Conheça todas as praias da baixada santista.</p>
+        </br>
+        <select id="filtros" class="custom-select">
+            <option value="all" selected>Mostrar Tudo</option>
+            <option value="saovicente">São Vicente</option>
+            <option value="santos">Santos</option>
+            <option value="praiagrande">Praia Grande</option>
+            <option value="peruibe">Peruíbe</option>
+            <option value="guaruja">Guarujá</option>
+            <option value="itanhaem">Itanhaém</option>
+            <option value="monguagua">Monguaguá</option>
+            <option value="bertioga">Bertioga</option>
+        </select>
+        <button onclick="filtrar(document.getElementById('filtros').value)" class="btn btn-info">Filtrar</button>
     </div>
 
 
-    <!-- src="../IMG/p01.jpg" -->
-    <div class="container-pattern">
 
+    <div class="container-pattern">
         <div class="row space">
             <div class="column santos">
                 <div class="contain">
@@ -235,7 +230,9 @@
         </div>
 
     </div>
+
     </br>
+
     <footer>
         <h6>Criado por: Roger Bernardo de Melo Lima</h6>
     </footer>

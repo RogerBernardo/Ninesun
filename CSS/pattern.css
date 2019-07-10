@@ -114,11 +114,10 @@
     color: black;
 }
 
-
 .banner_bg{
     background-color: #FFDA2D;
-    color: black;
 }
+
 
 .small-icon{
     margin: 15px;
@@ -141,6 +140,19 @@
 
 .describe{
     display: inline;
+}
+
+.location{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo_cidade{
+    padding: 5%;
+    margin: 0 auto;
+    height: 5%;
+    width: 50%;
+    background-color:white;
 }
 
 

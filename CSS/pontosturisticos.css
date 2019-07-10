@@ -10,40 +10,41 @@
 
 .row a{
     text-decoration: none;
-    margin: 10px;    
+    margin: 5px;    
 }        
 
 .row a:hover  {
     text-decoration: none;
+    color: black;
 }
 
 
 #cdd-01 {
-    background-color: #FFDA2D; 
+    background-color: #806C17; 
 }
 
 #cdd-02 {
-    background-color: #FFDA2D; 
+    background-color: #806C17; 
 }
 
 #cdd-03 {
-    background-color: #FFDA2D; 
+    background-color: #BFA222; 
 }
 
 #cdd-04 {
-    background-color: #FFDA2D;
+    background-color: #BFA222;
 }
 
 #cdd-05 {
-    background-color: #FFDA2D; 
+    background-color: #E6C329; 
 }
 
 #cdd-06 {
-    background-color: #FFDA2D; 
+    background-color: #E6C329; 
 }
 
 #cdd-07 {
-    background-color: #FFDA2D; 
+    background-color: #E6C329; 
 }
 
 #cdd-08 {

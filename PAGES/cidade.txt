@@ -65,37 +65,12 @@
     <div class="container-banner banner_bg">
 
         <div class="logo_cidade">
-            <h2>Santos</h2>
+            <h2>Cidade</h2>
         </div>
 
     </div>
 
     <div class="container-pattern">
-
-        <section>
-            <p>
-                Santos é um município portuário sede da Região Metropolitana da Baixada Santista, localizado no litoral
-                do estado de São Paulo, no Brasil. Com a maior participação econômica da citada região, abriga o maior
-                porto da América Latina, o principal responsável pela dinâmica econômica da cidade ao lado do turismo,
-                da pesca e do comércio, ocupando a 5ª colocação entre as não capitais mais importantes para a economia
-                brasileira e 10ª colocada segundo a qualidade de vida. A cidade é sede do poder executivo paulista todo
-                dia 13 de junho (capital simbólica de São Paulo) e também é sede de diversas instituições de ensino
-                superior.
-            </p>
-            
-
-            <p>
-                Maior cidade do litoral paulista, o principal cartão-postal do município são os 7 km de praia. O Livro
-                dos Recordes situa os jardins da orla de Santos como formadores do maior jardim frontal de praia em
-                extensão do mundo. A preservação e o cuidado com a flora do ambiente praiano santista, permeado de
-                palmeiras e amendoeiras, são resultados de um trabalho em conjunto dos departamentos de meio ambiente da
-                região, muitas vezes ligados a universidades ou a instituições científicas.
-            </p>
-            
-        </section>
-
-
-
         <section>
             <h2>História</h2>
             <p>
