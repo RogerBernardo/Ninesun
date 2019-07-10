@@ -130,16 +130,11 @@
 }
 
 .hoteis{
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    border: 1px solid #DBDBDB;
-    padding: 5px 5px 0px 0px;
+    width: 40%;
+    margin: 5px;    
+    padding: 1%;    
+    border: solid #262525 1px;
     overflow: auto;
-}
-
-.describe{
-    display: inline;
 }
 
 .location{
@@ -235,11 +230,6 @@ section .img-fluid{
     margin: 5px;
 }
 
-.img-hotel{
-    float: left;
-    margin-right: 1.8em;           
-}
-
 
 /*ELEMENTO ÚNICO*/
 #form-busca-hotel{
@@ -256,7 +246,7 @@ section .img-fluid{
 
 /* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .txt-destaque{             
         padding-left: 15%;
         padding-right: 15%;  
@@ -271,13 +261,14 @@ section .img-fluid{
         height: 30%;        
     }     
 
-    .img-hotel{
-        float: none;
-        position: relative;
-        margin-bottom: 1.8em;        
-        margin-left: 25%;
-        margin-right: 25%;
+    .hoteis{
+        width: 100%;
+        margin: 5px;    
+        padding: 5%;    
+        border: none;
+        overflow: auto;
     }
+    
     
 }
 

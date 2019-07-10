@@ -11,7 +11,7 @@
 }
 
 .custom-select{
-    width: 250px;
+    width: 50%;
 }
 
 
@@ -28,7 +28,5 @@
         margin: 0 auto;
     }
 
-    .custom-select{
-        width: 250px;
-    }
+    
 }
