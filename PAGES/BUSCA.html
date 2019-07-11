@@ -14,13 +14,9 @@
     <link rel="stylesheet" href="../CSS/hospedagem.css" />
     <link rel="stylesheet" href="../CSS/pattern.css" />
     <title>NINESUN</title>
-
-
-
-
 </head>
 
-<body >
+<body>
 
     <header>
         <nav class="navbar navbar-expand-md navbar-color">
@@ -32,9 +28,7 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../PAGES/INICIAL.html">Página Inicial</a>
-                    </li>
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="../PAGES/BUSCA.html">Hospedagem</a>
                     </li>
@@ -64,24 +58,24 @@
             </div>
         </nav>
     </header>
-    <div class="container-pattern" id="bg-map">
 
-        <section style="height:700px; width: 90%; margin: 0 auto;" class="">
-            <div class="container-banner">                
-                <h2>Hospedagem</h2>
-                <p>Escolha a cidade de sua preferência e te redirecionaremos para a página de hotéis correspondente.</p>
-            </div>
-            <br>
+
+    <div class="container-pattern" style="height:800px; width: 100%; margin: 0 auto; padding: 0;" id="bg-map">
+
+        <div class="form_busca_hospedagem">
+            <h2>Hospedagem</h2>
+            <p>Escolha a cidade de sua preferência e te redirecionaremos para a página de hotéis correspondente.</p>
+
             <form>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Nome da Cidade" id="cidade" />
                     <div class="input-group-append">
-                        <button class="btn btn-dark" id="pesquisar" type="button" onclick="procurar()">Pesquisar</button>
+                        <button class="btn btn-dark" id="pesquisar" type="button"
+                            onclick="procurar()">Pesquisar</button>
                     </div>
                 </div>
-               
             </form>
-        </section>
+        </div>        
     </div>
 
     <footer>
