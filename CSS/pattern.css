@@ -192,14 +192,20 @@ body{
 
 
 footer{
-    margin: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #262525;
-    color: white;
-    text-align: center;
+    margin-top: 100px;
+    font-size: 0.8em;
+    padding: 25px;
+    background-color: #F2F2F2;      
     width: 100%;
     font-family: 'Poppins', sans-serif;
+}
+
+footer img{
+    margin-right: 10px;
+}
+
+footer a{
+    color: black;
 }
 
 h1, h2, h3, h4, h5{    
@@ -269,6 +275,12 @@ section .img-fluid{
 #bg-map{
     background-color: white;    
 }
+
+#aviso-IMG-TXT{
+    color: grey;
+}
+
+
 
 /* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
 
