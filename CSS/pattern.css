@@ -148,14 +148,6 @@
     text-decoration: none;
 }
 
-.form_busca_hospedagem{
-    background-color: whitesmoke;
-    width: 50%;
-    padding: 80px 50px;
-    height: 450px;
-    margin: 3% 20%;
-}
-
 .none_decoration{
     color: black;
     text-decoration: none;
@@ -191,8 +183,7 @@ body{
 }
 
 
-footer{
-    margin-top: 100px;
+footer{    
     font-size: 0.8em;
     padding: 25px 20%; 
     background-color: #F2F2F2;      
@@ -273,14 +264,20 @@ section .img-fluid{
 /*ELEMENTO ÚNICO*/
 
 #bg-map{
-    background-color: white;    
+    background-image: url('../IMG/wallpaper.jpg');    
 }
 
 #aviso-IMG-TXT{
     color: grey;
 }
 
-
+#hospedagem{
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 80px 50px;
+    height: 450px;
+    margin: 5% 60% 5% 10%;
+}
 
 /* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
 
@@ -339,11 +336,12 @@ section .img-fluid{
         text-align: justify;  
     }
 
-    .form_busca_hospedagem{
-        width: 90%;
-        padding: 6% 2%;
-        height: 400px;
-        margin: 0 5%;
+    #hospedagem{
+        width: 70%;
+        padding: 6% 3% 2% 3%;
+        height: 350px;     
+        margin: 0 auto;
+        text-align: center;
     }
 }
 

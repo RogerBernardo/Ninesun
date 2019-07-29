@@ -1,7 +1,7 @@
 /* Não apagar nada aqui embaixo*/
 
 .column{
-    width: 40%;
+    width: 30%;
     margin: 15px;
     display: none;
 }
@@ -12,6 +12,10 @@
 
 .custom-select{
     width: 50%;
+}
+
+h5{
+    margin-top: 10px;
 }
 
 
@@ -28,5 +32,7 @@
         margin: 0 auto;
     }
 
-    
+    .custom-select{
+        width: 80%;
+    }
 }
