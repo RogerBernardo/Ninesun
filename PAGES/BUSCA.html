@@ -121,7 +121,10 @@
                 case "PRAIA GRANDE":
                     window.location.assign("../PAGES/H-praiagrande.html");
                     break;
-                case "MONGUAGUA":
+                case "MONGAGUA":
+                    window.location.assign("../PAGES/H-monguagua.html");
+                    break;
+                case "MONGAGUÁ":
                     window.location.assign("../PAGES/H-monguagua.html");
                     break;
                 case "MONGUAGUÁ":
@@ -149,6 +152,7 @@
                     window.location.assign("../PAGES/H-bertioga.html");
                     break;
                 default:
+                    document.getElementById("cidade").value = " ";
                     alert("Não consegui identificar nenhuma cidade com o nome: " + cidade);
                     break;
 

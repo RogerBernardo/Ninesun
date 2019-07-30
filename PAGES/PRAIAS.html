@@ -60,7 +60,7 @@
         </nav>
     </header>
 
-    <div class="container-head">
+    <!-- <div class="container-head">
         <h2>Praias</h2>
         <p>Conheça as praias da Baixada Santista!</p>
         </br>
@@ -76,11 +76,12 @@
             <option value="bertioga">Bertioga</option>
         </select>
         <button onclick="filtrar(document.getElementById('filtros').value)" class="btn btn-dark">Filtrar</button>
-    </div>
-
-
+    </div> -->
 
     <div class="container-pattern">
+        <section style="height: 800px;">
+            <h1 class="center">Página em manuntenção</h1>
+        </section>
 
         <!-- <div class="column NOMEDACIDADE">
             <div class="contain">
@@ -93,8 +94,7 @@
             </div>
         </div>
  -->
-        <div class="row space">
-
+        <!--  <div class="row space">
             <div class="column santos">
                 <div class="contain">
                     <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
@@ -142,11 +142,8 @@
                     <p class="location">Localização: Santos</p>
                 </div>
             </div>
-
-        </div> <!-- Fim da div ROW -->
-    </div> <!-- Fim da div CONTAINER -->
-
-    </br>
+        </div> -->
+    </div>
 
     <footer>
         <p><img class="img-fluid" src="../IMG/ICON/name.png" /> Roger Bernardo de Melo Lima</p>
@@ -166,9 +163,7 @@
         crossorigin="anonymous"></script>
 
     <script>
-
         filtrar("all");
-
         function filtrar(c) {
             var x, i;
             x = document.getElementsByClassName("column");
@@ -180,7 +175,6 @@
                 if (x[i].className.indexOf(c) > -1) addClasse(x[i], "show");
             }
         }
-
         function addClasse(element, name) {
             var i, arr1, arr2;
             arr1 = element.className.split(" ");
@@ -189,7 +183,6 @@
                 if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
             }
         }
-
         function delClasse(element, name) {
             var i, arr1, arr2;
             arr1 = element.className.split(" ");
