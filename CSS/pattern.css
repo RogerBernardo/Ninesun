@@ -279,6 +279,10 @@ section .img-fluid{
     margin: 5% 60% 5% 10%;
 }
 
+#hospedagem p {
+    text-align: left;
+}
+
 /* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1000px) {
@@ -290,6 +294,10 @@ section .img-fluid{
     section{     
         padding: 0 10%; 
     } 
+
+    footer{           
+        padding: 25px 10%;        
+    }
   
     .img-center{
         width: 30%;
@@ -314,7 +322,11 @@ section .img-fluid{
 
     section{     
         padding: 0 5%; 
-    }     
+    }    
+    
+    footer{           
+        padding: 25px 5%;        
+    }
 
     .img-center{
         width: 35%;
@@ -337,10 +349,11 @@ section .img-fluid{
     }
 
     #hospedagem{
-        width: 70%;
+        width: 80%;
         padding: 6% 3% 2% 3%;
-        height: 350px;     
+        height: 350px;    
         margin: 0 auto;
+        margin-top: 75px;
         text-align: center;
     }
 }

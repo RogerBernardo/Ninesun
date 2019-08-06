@@ -60,90 +60,63 @@
         </nav>
     </header>
 
-    <!-- <div class="container-head">
-        <h2>Praias</h2>
-        <p>Conheça as praias da Baixada Santista!</p>
-        </br>
-        <select id="filtros" class="custom-select">
-            <option value="all" selected>Mostrar Tudo</option>
-            <option value="saovicente">São Vicente</option>
-            <option value="santos">Santos</option>
-            <option value="praiagrande">Praia Grande</option>
-            <option value="peruibe">Peruíbe</option>
-            <option value="guaruja">Guarujá</option>
-            <option value="itanhaem">Itanhaém</option>
-            <option value="monguagua">Monguaguá</option>
-            <option value="bertioga">Bertioga</option>
-        </select>
-        <button onclick="filtrar(document.getElementById('filtros').value)" class="btn btn-dark">Filtrar</button>
-    </div> -->
 
     <div class="container-pattern">
-        <section style="height: 800px;">
-            <h1 class="center">Página em manuntenção</h1>
-        </section>
+        <div class="container-head">
+            <h2>Praias e Cachoeiras</h2>
+            <p>Conheça as belezas naturais da região!</p>
+        </div>
 
-        <!-- <div class="column NOMEDACIDADE">
-            <div class="contain">
-                <img src="../IMG/PRAIAS/" class="img-fluid">
-                <h5> </h5>
-                <p>
+        <div>
+            <div class="row">
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-bertioga.jpg" />
+                    <p class="cidade"><a href="">Bertioga</a></p>
+                </div>
 
-                </p>
-                <p class="location">Localização: NOME DA CIDADE</p>
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-cubatao.jpg" />
+                    <p class="cidade"><a href="">Cubatão</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-guaruja.jpg" />
+                    <p class="cidade"><a href="">Guarujá</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-itanhaem.jpg" />
+                    <p class="cidade"><a href="">Itanhaém</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-mongagua.jpg" />
+                    <p class="cidade"><a href="">Mongaguá</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-peruibe.jpg" />
+                    <p class="cidade"><a href="">Peruíbe</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-praiagrande.jpg" />
+                    <p class="cidade"><a href="">Praia Grande</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-santos.jpg" />
+                    <p class="cidade"><a href="">Santos</a></p>
+                </div>
+
+                <div class="column">
+                    <img class="img-fluid praia" src="../IMG/PRAIAS/capa-saovicente.jpg" />
+                    <p class="cidade"><a href="">São Vicente</a></p>
+                </div>
             </div>
         </div>
- -->
-        <!--  <div class="row space">
-            <div class="column santos">
-                <div class="contain">
-                    <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
-                    <h5> Ponta da Praia</h5>
-                    <p class="location">Localização: Santos</p>
-                </div>
-            </div>
-
-            <div class="column santos">
-                <div class="contain">
-                    <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
-                    <h5> Praia do José Menino</h5>
-                    <p class="location">Localização: Santos</p>
-                </div>
-            </div>
-
-            <div class="column santos">
-                <div class="contain">
-                    <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
-                    <h5> Praia do Gonzaga </h5>
-                    <p class="location">Localização: Santos</p>
-                </div>
-            </div>
-
-            <div class="column santos">
-                <div class="contain">
-                    <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
-                    <h5>Praia do Boqueirão</h5>
-                    <p class="location">Localização: Santos</p>
-                </div>
-            </div>
-
-            <div class="column santos">
-                <div class="contain">
-                    <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
-                    <h5>Praia do Embaré</h5>
-                    <p class="location">Localização: Santos</p>
-                </div>
-            </div>
-
-            <div class="column santos">
-                <div class="contain">
-                    <img src="../IMG/PRAIAS/1.jpg" class="img-fluid">
-                    <h5>Praia de Aparecida</h5>
-                    <p class="location">Localização: Santos</p>
-                </div>
-            </div>
-        </div> -->
     </div>
+
 
     <footer>
         <p><img class="img-fluid" src="../IMG/ICON/name.png" /> Roger Bernardo de Melo Lima</p>
@@ -162,39 +135,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-    <script>
-        filtrar("all");
-        function filtrar(c) {
-            var x, i;
-            x = document.getElementsByClassName("column");
-            if (c == "all") {
-                c = "";
-            }
-            for (i = 0; i < x.length; i++) {
-                delClasse(x[i], "show");
-                if (x[i].className.indexOf(c) > -1) addClasse(x[i], "show");
-            }
-        }
-        function addClasse(element, name) {
-            var i, arr1, arr2;
-            arr1 = element.className.split(" ");
-            arr2 = name.split(" ");
-            for (i = 0; i < arr2.length; i++) {
-                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
-            }
-        }
-        function delClasse(element, name) {
-            var i, arr1, arr2;
-            arr1 = element.className.split(" ");
-            arr2 = name.split(" ");
-            for (i = 0; i < arr2.length; i++) {
-                while (arr1.indexOf(arr2[i]) > -1) {
-                    arr1.splice(arr1.indexOf(arr2[i]), 1);
-                }
-            }
-            element.className = arr1.join(" ");
-        }
-    </script>
+
 
 </body>
 
