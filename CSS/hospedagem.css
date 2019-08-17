@@ -1,5 +1,15 @@
 .hotel{
-    width: 80%;
-    padding-bottom: 100px;
+    width: 90%;
+    padding-bottom: 50px;
     margin: 0 auto;
+}
+
+.hotel h3{
+    text-align: left;
+}
+
+.container-head{
+    background-color: #FFDA2D;
+    color: black;
+    margin-bottom: 50px;
 }

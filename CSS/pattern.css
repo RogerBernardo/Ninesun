@@ -124,14 +124,6 @@
     width: 80%;    
 }
 
-.hoteis{
-    width: 40%;
-    margin: 5px;    
-    padding: 1%;    
-    border: solid #262525 1px;
-    overflow: auto;
-}
-
 .location{
     text-transform: uppercase;
     font-weight: bold;
@@ -303,14 +295,7 @@ section .img-fluid{
         width: 30%;
         height: 30%;        
     }     
-
-    .hoteis{
-        width: 100%;
-        margin: 5px;    
-        padding: 5%;    
-        border: none;
-        overflow: auto;
-    }    
+  
     
 }
 
