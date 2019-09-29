@@ -23,8 +23,7 @@
 }
 
 .container-pattern {    
-    width: 100%;
-    padding-top: 25px;
+    width: 100%;    
     padding-bottom: 25px;     
     text-align: justify;     
 }
@@ -37,6 +36,10 @@
     width: 100%; 
     text-align: center;
     padding: 5%;
+}
+
+.container-banner h1{
+    font-size: 2em;
 }
 
 .row{
@@ -244,7 +247,7 @@ section .img-fluid{
 }
 
 .img-icon{
-    width: 150px;    
+    width: 4.5em; 
 }
 
 .map-cidade{
@@ -290,13 +293,6 @@ section .img-fluid{
     footer{           
         padding: 25px 10%;        
     }
-  
-    .img-center{
-        width: 30%;
-        height: 30%;        
-    }     
-  
-    
 }
 
 @media screen and (max-width: 680px) {
@@ -340,6 +336,7 @@ section .img-fluid{
         margin: 0 auto;
         margin-top: 75px;
         text-align: center;
-    }
+    }   
+    
 }
 
