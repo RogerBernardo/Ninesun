@@ -71,6 +71,7 @@
 .nav-link:hover{
     color: black;
     background-color: #FFDA2D;    
+    padding-left: 3px;
 }
 
 
@@ -81,8 +82,8 @@
 }
 
 .nav-item{
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .w-100{
@@ -271,7 +272,7 @@ section .img-fluid{
     width: 400px;
     padding: 80px 50px;
     height: 450px;
-    margin: 5% 60% 5% 10%;
+    margin: 5% 60% 5% 20%;
 }
 
 #hospedagem p {

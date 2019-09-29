@@ -118,3 +118,9 @@ Outra grande funcionalidade útil para a manutenção do projeto em tempos poste
 
 •	http://www.lmc.org.br/?page_id=141
 
+# Siglas
+pt = Pontos turísticos.
+pc = Praias e cachoeiras.
+H  = Hotéis.
+
+Somente nome das cidades = Informações específicas sobre as cidades.
