@@ -178,17 +178,16 @@ body{
     font-family: 'Sintony', sans-serif;
 }
 
-
 footer{    
-    font-size: 0.8em;
-    padding: 25px 20%; 
-    background-color: #F2F2F2;      
+    font-size: 1em;
+    padding: 5% 20%; 
+    background-color: white;      
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
 footer img{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 footer a{
@@ -213,7 +212,6 @@ section{
     margin-top: 25px;
     padding: 0 20%;     
 }
-
 
 
 /* IMAGEM -----------------------------------------------------------------------------------------------------------------------*/
