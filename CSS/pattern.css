@@ -4,6 +4,13 @@
 
 /* CLASSES -----------------------------------------------------------------------------------------------------------------------*/
 
+.container-padrao{
+    width: 100%;
+    padding-bottom: 25px;     
+    text-align: justify;  
+    
+}
+
 .carousel-item h4{
     font-size: 2.5em;    
     color: whitesmoke;
@@ -14,7 +21,6 @@
     overflow: auto;   
 }
 
-
 .container-head{
     width: 100%; 
     height: 15%;
@@ -22,10 +28,8 @@
     text-align: center;
 }
 
-.container-pattern {    
-    width: 100%;    
-    padding-bottom: 25px;     
-    text-align: justify;     
+.cabeçalho_hotel{
+    background-color: #FFDA2D;   
 }
 
 .fluid{
@@ -171,8 +175,6 @@
     font-size: 3em;
 }
 
-
-/* ELEMENTO HTML -----------------------------------------------------------------------------------------------------------------------*/
 body{
     line-height: 1.9em;   
     font-family: 'Sintony', sans-serif;
@@ -213,9 +215,6 @@ section{
     padding: 0 20%;     
 }
 
-
-/* IMAGEM -----------------------------------------------------------------------------------------------------------------------*/
-
 .img-center{   
     margin: 0 auto;
     display: block;
@@ -254,9 +253,6 @@ section .img-fluid{
     margin: 5px;
 }
 
-
-/*ELEMENTO ÚNICO*/
-
 #bg-map{
     background-image: url('../IMG/wallpaper.jpg');    
 }
@@ -277,6 +273,8 @@ section .img-fluid{
     text-align: left;
 }
 
+
+
 /* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 1000px) {
@@ -294,18 +292,18 @@ section .img-fluid{
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 700px) {
     .txt-destaque{             
-        padding-left: 5%;
-        padding-right: 5%;  
+        padding-left: 3%;
+        padding-right: 3%;  
     }   
 
     section{     
-        padding: 0 5%; 
+        padding: 0 20px; 
     }    
     
     footer{           
-        padding: 25px 5%;        
+        padding: 25px 0;        
     }
 
     .img-center{
@@ -331,11 +329,12 @@ section .img-fluid{
     #hospedagem{
         width: 80%;
         padding: 6% 3% 2% 3%;
-        height: 350px;    
+        height: 300px;    
         margin: 0 auto;
         margin-top: 75px;
-        text-align: center;
-    }   
+        text-align: left;
+        font-size: 0.9em;
+    }    
     
 }
 
