@@ -118,6 +118,12 @@ Outra grande funcionalidade útil para a manutenção do projeto em tempos poste
 
 •	http://www.lmc.org.br/?page_id=141
 
+•	http://www.guaruja.sp.gov.br/sample-page-2/praias/
+
+http://www.praias.com.br/estado-sao-paulo/praias-de-itanhaem.html
+
+https://www.viagensecaminhos.com/2012/03/hitanhaem-sp.html
+
 # Siglas
 pt = Pontos turísticos.
 pc = Praias e cachoeiras.
