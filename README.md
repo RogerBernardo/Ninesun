@@ -120,9 +120,31 @@ Outra grande funcionalidade útil para a manutenção do projeto em tempos poste
 
 •	http://www.guaruja.sp.gov.br/sample-page-2/praias/
 
-http://www.praias.com.br/estado-sao-paulo/praias-de-itanhaem.html
+•	http://www.praias.com.br/estado-sao-paulo/praias-de-itanhaem.html
 
-https://www.viagensecaminhos.com/2012/03/hitanhaem-sp.html
+•	https://www.viagensecaminhos.com/2012/03/hitanhaem-sp.html
+
+•	http://www.exploradores.com.br/parque-ecologico-pereque-cubatao/
+
+•	https://trilhandomontanhas.com/fotos/lagoa-azul-serra-do-mar-cubatao/
+
+•	https://www.mochileiros.com/topic/21906-cachoeiras-do-para%C3%ADso-e-lagoa-azul-em-cubat%C3%A3o-sp/
+
+•	https://quantocustaviajar.com/blog/melhores-praias-em-peruibe/
+
+•	http://www.praias.com.br/estado-sao-paulo/praias-de-santos.html
+
+•	https://www.imagens.usp.br/?attachment_id=13645
+
+•	https://www.temporadalivre.com/blog/santos-e-seu-leque-generoso-de-praias
+
+•	https://naturam.com.br/sao-vicente/
+
+•	http://www.guiasaovicente.com.br/pontos-turisticos/sao-vicente/praias/
+
+•	https://www.visiteobrasil.com.br/sudeste/sao-paulo/praias/conheca/praias-de-praia-grande
+
+•	https://topsantos.com.br/praias-de-praia-grande-fotos-mapa/
 
 # Siglas
 pt = Pontos turísticos.

@@ -39,7 +39,10 @@
 }
 
 .cabeçalho_hotel{
-    background-color: #FFDA2D;   
+    background-image: url("../IMG/hotel.png"); 
+    background-size: cover; 
+    padding: 10%; 
+    color: whitesmoke;
 }
 
 .fluid{
@@ -49,7 +52,7 @@
 .container-banner{
     width: 100%; 
     text-align: center;
-    padding: 5%;
+    padding: 10%;
 }
 
 .container-banner h1{
@@ -165,7 +168,6 @@
 .none_decoration:hover{
     text-decoration: none;
 }
-
 
 .banner{
     width: 100%;
