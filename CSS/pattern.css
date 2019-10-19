@@ -285,11 +285,14 @@ section .img-fluid{
     text-align: left;
 }
 
-.fonte{
+.fonte {
     color: darkgrey;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    text-align: justify;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
 .fonte li{
     line-height: 1.3em;
 }
