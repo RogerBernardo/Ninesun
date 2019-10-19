@@ -64,7 +64,17 @@
             </br>
             <form>
                 <div class="input-group mb-2">
-                    <input type="text" class="form-control" placeholder="Nome da Cidade" id="cidade" />
+                    <select name="cidade" id="cidade" class="form-control">
+                        <option value="bertioga">Bertioga</option>
+                        <option value="cubatao">Cubatão</option>
+                        <option value="guaruja">Guarujá</option>
+                        <option value="itanhaem">Itanhaém</option>
+                        <option value="mongagua">Mongaguá</option>
+                        <option value="peruibe">Peruíbe</option>
+                        <option value="praiagrande">Praia Grande</option>
+                        <option value="santos">Santos</option>
+                        <option value="saovicente">São Vicente</option>
+                    </select>
                     <div class="input-group-append">
                         <button class="btn btn-dark" id="pesquisar" type="button"
                             onclick="procurar()">Pesquisar</button>
@@ -79,7 +89,9 @@
             <div class="col">
                 <ul class="list-inline">
                     <li class="list-inline-item"> <a><img class="img-fluid" src="IMG/ICON/facebook.png" /></a></li>
-                    <li class="list-inline-item"> <a href="https://www.linkedin.com/in/roger-bernardo-de-melo-lima-757082166"><img class="img-fluid" src="IMG/ICON/linkedin.png" /></a></li>
+                    <li class="list-inline-item"> <a
+                            href="https://www.linkedin.com/in/roger-bernardo-de-melo-lima-757082166"><img
+                                class="img-fluid" src="IMG/ICON/linkedin.png" /></a></li>
                     <li class="list-inline-item"> <a href="https://github.com/RogerBernardo"><img class="img-fluid"
                                 src="IMG/ICON/github.png" /></a></li>
                 </ul>
@@ -103,56 +115,34 @@
     <script>
 
         function procurar() {
-            var c = "";
             var c = document.getElementById("cidade").value;
             var cidade = c.toUpperCase();
 
             switch (cidade) {
-                case "SAO VICENTE":
+                case "SAOVICENTE":
                     window.location.assign("H-saovicente.html");
-                    break;
-                case "SÃO VICENTE":
-                    window.location.assign("H-saovicente.html");
-                    break;
+                    break;                
                 case "CUBATAO":
                     window.location.assign("H-cubatao.html");
-                    break;
-                case "CUBATÃO":
-                    window.location.assign("H-cubatao.html");
-                    break;
+                    break;              
                 case "SANTOS":
                     window.location.assign("H-santos.html");
                     break;
-                case "PRAIA GRANDE":
+                case "PRAIAGRANDE":
                     window.location.assign("H-praiagrande.html");
                     break;
                 case "MONGAGUA":
                     window.location.assign("H-mongagua.html");
-                    break;
-                case "MONGAGUÁ":
-                    window.location.assign("H-mongagua.html");
-                    break;
-                case "MONGUAGUÁ":
-                    window.location.assign("H-mongagua.html");
-                    break;
+                    break;                
                 case "ITANHAEM":
                     window.location.assign("H-itanhaem.html");
-                    break;
-                case "ITANHAÉM":
-                    window.location.assign("H-itanhaem.html");
-                    break;
+                    break;               
                 case "PERUIBE":
                     window.location.assign("H-peruibe.html");
-                    break;
-                case "PERUÍBE":
-                    window.location.assign("H-peruibe.html");
-                    break;
+                    break;                
                 case "GUARUJA":
                     window.location.assign("H-guaruja.html");
-                    break;
-                case "GUARUJÁ":
-                    window.location.assign("H-guaruja.html");
-                    break;
+                    break;               
                 case "BERTIOGA":
                     window.location.assign("H-bertioga.html");
                     break;

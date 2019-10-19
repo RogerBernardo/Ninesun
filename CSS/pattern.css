@@ -287,12 +287,19 @@ section .img-fluid{
 
 .fonte {
     color: darkgrey;
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-align: justify;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
+figcaption{
+    font-size: 0.8em;
+    color: darkgrey;
+    font-style: italic;
+}
+
 .fonte li{
     line-height: 1.3em;
 }
