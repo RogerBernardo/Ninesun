@@ -285,6 +285,14 @@ section .img-fluid{
     text-align: left;
 }
 
+.fonte{
+    color: darkgrey;
+    font-size: 0.8em;
+}
+
+.fonte li{
+    line-height: 1.3em;
+}
 
 
 /* RESPONSIVIDADE -----------------------------------------------------------------------------------------------------------------------*/
