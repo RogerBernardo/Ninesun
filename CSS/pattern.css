@@ -7,14 +7,14 @@
 }
 
 .banner_bg{
-    background-color: #FFDA2D;
+    background-image: url("../IMG/beach.jpg");
+    color: whitesmoke;
 }
 
 .container-padrao{
     width: 100%;
     padding-bottom: 25px;     
-    text-align: justify;  
-    
+    text-align: justify;      
 }
 
 .carousel-item h4{
@@ -55,9 +55,7 @@
     padding: 10%;
 }
 
-.container-banner h1{
-    font-size: 2em;
-}
+
 
 .row{
     display: flex;
@@ -175,15 +173,8 @@
     padding: 10%;
     color: black;
     background-image: url('../IMG/mapa2.jpeg');
-}
-
-.logo_cidade{    
-    margin: 0 auto;    
     text-align: center;    
-}
 
-.logo_cidade h2{
-    font-size: 3em;
 }
 
 body{
@@ -288,7 +279,7 @@ section .img-fluid{
 .fonte {
     color: darkgrey;
     font-size: 0.8em;
-    text-align: justify;
+    text-align: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -298,10 +289,11 @@ figcaption{
     font-size: 0.8em;
     color: darkgrey;
     font-style: italic;
+    text-align: center;
 }
 
 .fonte li{
-    line-height: 1.3em;
+    line-height: 1.3em;    
 }
 
 
@@ -319,12 +311,24 @@ figcaption{
 
 @media screen and (max-width: 700px) {  
 
+    .container-banner h1{
+        font-size: 2em;        
+    }
+
+    .fonte, figcaption{
+        text-align: left;
+        font-size: 0.7em;
+    }
+
+
     section{     
         padding: 0 20px; 
     }    
     
     footer{           
-        padding: 25px 0;        
+        padding: 25px 0;    
+        text-align: center;
+        margin: 0 auto;    
     }
 
     .img-icon{
