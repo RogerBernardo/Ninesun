@@ -7,9 +7,8 @@ O objetivo deste projeto será desenvolver um site de turismo para a Baixada San
 
 # Considerações finais
 Tendo como proposta apresentar dados turísticos a qualquer pessoa interessada, o Ninesun não pode ser considerado como finalizado. Criou-se diversas páginas que abordam o que há de interessante para um turista, mas ainda sim existem informações adicionais que podem ser alocadas nos mais variados lugares do site. 
-Este trabalho foi de suma importância para praticar os conhecimentos adquiridos ao longo do curso ministrado. Além dos conhecimentos usuais da área de tecnologia da informação, houve um aprendizado sobre à área de turismo, provando como conhecimentos interdisciplinares têm diversas aplicações no cotidiano. 
-Uma perspectiva de melhoria futura seria a adaptação do site para pessoas com deficiência visual, pois segundo dados do IBGE de 2010 do total da população brasileira, 23,9% (45,6 milhões de pessoas) declararam ter algum tipo de deficiência. Entre as deficiências declaradas, a mais comum foi a visual, atingindo 3,5% da população.
-Outra grande funcionalidade útil para a manutenção do projeto em tempos posteriores é a criação de uma página administrativa para a adição de hotéis em um banco de dados. Desta forma, permite que uma pessoa sem conhecimento técnico consiga realizar modificações pontuais de maneira rápida e eficiente. Para tanto, será necessário a compra de um domínio e hospedagem, pois o GitHub Pages não permite que sites com a linguagem de programação PHP se mantenham no ar por meio se seus servidores, justamente pelo fato de se tratar de uma ferramenta gratuita. 
+Este projeto pode e deve ser melhorado quanto sua estrutura de pastas, código e boas práticas. Sugestões de melhoria: Estrutura de pastas, utilização de HTML semântico, uso de pré-processadores css, criação de um back-end para a adição de hotéis e posts, reutilização de código (header e footer), uso de React. 
+
 
 # Fontes de pesquisa
 •	https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_da_Baixada_Santista
