@@ -1,4 +1,6 @@
-![Ninesun](IMG/LOGO/brand.png)
+<p align="center">
+  <img src="IMG/LOGO/brand.png">
+</p>
 
 ## O que é?
 O objetivo deste projeto foi desenvolver um site de turismo para a Baixada Santista, que ajudasse a chamar a atenção de possíveis turistas para a região, e assim movimentar ainda mais a economia local por meio de contratação de pacotes turísticos e hospedagens em hotéis. 
